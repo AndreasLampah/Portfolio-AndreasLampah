@@ -1,0 +1,240 @@
+body {
+  background-color: aqua;
+}
+
+/* style navbar */
+.navbar {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "NTR";
+}
+
+/* style intro */
+#intro-top .intro-name p {
+  max-width: max-content;
+  font-size: 45px;
+  font-family: "NTR";
+  font-weight: 600;
+  color: #42f1cb;
+}
+
+#intro-top .intro-name p:hover {
+  transition: all 0.3s;
+  max-width: max-content;
+  font-size: 45px;
+  font-family: "NTR";
+  font-weight: 600;
+  color: #42f1cb;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-shadow: 0px 0px 50px #42f1cb;
+}
+
+#intro-top .text-design h1 {
+  font-size: 70px;
+  letter-spacing: -3px;
+  word-spacing: -7px;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: #000067;
+  max-width: max-content;
+}
+
+#intro-top .text-design h1:hover {
+  transition: all;
+  text-shadow: 0px 0px 50px #6c6c9e;
+  font-size: 70px;
+  letter-spacing: -3px;
+  word-spacing: -7px;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 103);
+  max-width: max-content;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+}
+
+#intro-top .text-design p {
+  font-size: 24px;
+  font-family: "NTR";
+  color: #52539e;
+  width: 500px;
+}
+
+#intro-top .text-design p:hover {
+  transition: all;
+  text-shadow: 0px 0px 50px #52539e;
+  font-size: 24px;
+  font-family: "NTR";
+  color: rgb(82, 83, 158);
+  width: 500px;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+}
+
+#intro-top .icon-socmed {
+  font-size: 50px;
+  word-spacing: 30px;
+}
+
+#intro-top .icon-socmed .insta {
+  color: rgb(255, 0, 0);
+}
+
+#intro-top .icon-socmed .insta:hover {
+  color: rgb(255, 0, 0);
+  transition: all 0.3s;
+  text-shadow: 0px 0px 20px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+#intro-top .icon-socmed .face {
+  color: rgb(0, 51, 255);
+}
+
+#intro-top .icon-socmed .face:hover {
+  text-shadow: 0px 0px 20px;
+  color: rgb(0, 51, 255);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+#intro-top .icon-socmed .gith {
+  color: rgb(0, 0, 0);
+}
+
+#intro-top .icon-socmed .gith:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 20px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+#intro-top .image img {
+  box-shadow: 25px 75px 170px 120px rgb(255, 222, 222);
+  width: 280px;
+  margin-left: 40px;
+}
+
+/* style about */
+#about .container {
+  margin-top: 100px;
+}
+
+#about .image-about img {
+  width: 400px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 60px 4px 200px 80px #d2fcff;
+}
+
+#about .text-a-bit h1 {
+  color: #0f0051;
+  font-family: "NTR";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: start;
+}
+
+#about .text-hi-there p {
+  color: rgb(60, 60, 60);
+  font-size: 22px;
+  font-family: "NTR";
+  width: 600px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* style contact */
+#contact {
+  background-image: url(./assets/BannerQuestion.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .contact-content h1 {
+  text-align: center;
+  color: #000000;
+  margin-top: 200px;
+  font-family: "NTR";
+  font-weight: 800;
+  font-size: 45px;
+}
+
+#contact .content-button button {
+  background-color: rgb(33, 35, 147);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 25px;
+  font-family: "NTR";
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0px 0px 50px 1px rebeccapurple;
+}
+
+#contact .content-button button:hover {
+  transition: all 0.3s;
+  background-color: rgb(73, 74, 143);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 25px;
+  font-family: "NTR";
+  font-weight: bold;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  box-shadow: none;
+}
+
+/* style footer */
+#footer .container-fluid {
+  height: 100%;
+  background-color: #dba5ff;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 50px 1px rebeccapurple;
+}
+
+#footer p {
+  font-weight: bold;
+  color: #404040;
+  font-family: "NTR";
+  font-size: 20px;
+}

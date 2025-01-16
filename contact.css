@@ -1,0 +1,100 @@
+#contactPage {
+  background-image: url(./assets/BannerQuestion.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contactPage h1 {
+  font-family: "NTR";
+  font-size: 65px;
+  font-weight: bolder;
+  margin-top: 130px;
+  color: #5b5dd1;
+}
+
+#contactPage .socmed-icon {
+  font-size: 50px;
+  word-spacing: 50px;
+}
+
+#contactPage .socmed-icon .instagram {
+  color: #fd1808;
+}
+
+#contactPage .socmed-icon .instagram:hover {
+  transition: all 0.3s;
+  color: rgb(255, 117, 117);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-shadow: 0px 0px 20px;
+}
+
+#contactPage .socmed-icon .facebook {
+  color: rgb(0, 42, 255);
+}
+
+#contactPage .socmed-icon .facebook:hover {
+  transition: all 0.3s;
+  color: rgb(0, 42, 255);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-shadow: 0px 0px 20px;
+}
+
+#contactPage .socmed-icon .github {
+  color: rgb(0, 0, 0);
+}
+
+#contactPage .socmed-icon .github:hover {
+  transition: all 0.3s;
+  color: rgb(0, 0, 0);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-shadow: 0px 0px 20px;
+}
+
+#contactPage .myButton button {
+  font-size: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 180px;
+  font-weight: 800;
+  font-family: "ntr";
+  color: rgb(255, 249, 238);
+  text-align: center;
+  background-color: blueviolet;
+  border: none;
+  box-shadow: 0px 0px 30px 1px blueviolet;
+}
+
+#contactPage .myButton button:hover {
+  transition: all 0.5s;
+  font-size: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 180px;
+  font-weight: 800;
+  font-family: "ntr";
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(113, 60, 163);
+  border: none;
+  box-shadow: 0px 0px 30px 0px blueviolet;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
