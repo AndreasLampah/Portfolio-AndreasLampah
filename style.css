@@ -1,3 +1,8 @@
+#all-page {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: aqua;
 }
@@ -237,4 +242,8 @@ body {
   color: #404040;
   font-family: "NTR";
   font-size: 20px;
+}
+
+/* ukuran responsive */
+@media screen and (min-width: 468px) {
 }
