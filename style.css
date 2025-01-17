@@ -1,10 +1,7 @@
 #all-page {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: aqua;
+  overflow-x: hidden;
 }
 
 /* style navbar */
@@ -16,7 +13,7 @@ body {
 
 /* style intro */
 #intro-top .intro-name p {
-  max-width: max-content;
+  max-width: 100%;
   font-size: 45px;
   font-family: "NTR";
   font-weight: 600;
@@ -25,7 +22,7 @@ body {
 
 #intro-top .intro-name p:hover {
   transition: all 0.3s;
-  max-width: max-content;
+  max-width: 100%;
   font-size: 45px;
   font-family: "NTR";
   font-weight: 600;
@@ -45,7 +42,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
   color: #000067;
-  max-width: max-content;
+  max-width: 100%;
 }
 
 #intro-top .text-design h1:hover {
@@ -58,7 +55,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 103);
-  max-width: max-content;
+  max-width: 100%;
   -webkit-transition: all;
   -moz-transition: all;
   -ms-transition: all;
@@ -242,8 +239,4 @@ body {
   color: #404040;
   font-family: "NTR";
   font-size: 20px;
-}
-
-/* ukuran responsive */
-@media screen and (min-width: 468px) {
 }
